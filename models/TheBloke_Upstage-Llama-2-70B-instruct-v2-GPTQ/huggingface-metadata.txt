@@ -1,0 +1,6 @@
+url: https://huggingface.co/TheBloke/Upstage-Llama-2-70B-instruct-v2-GPTQ
+branch: main
+download date: 2023-08-22 02:31:15
+sha256sum:
+    10d372da6f753c54270d5190ac94524b10069a0cc9263c1604bd07413010da3e model.safetensors
+    9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347 tokenizer.model
