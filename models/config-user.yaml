@@ -1,0 +1,21 @@
+TheBloke_Llama-2-13B-chat-GGML$:
+  loader: ExLlama_HF
+  gpu_split: ''
+  max_seq_len: 2048
+  compress_pos_emb: 1
+  alpha_value: 1
+TheBloke_Upstage-Llama-2-70B-instruct-v2-GPTQ$:
+  loader: Transformers
+  cpu_memory: 0
+  auto_devices: false
+  disk: false
+  cpu: true
+  bf16: false
+  load_in_8bit: false
+  trust_remote_code: false
+  load_in_4bit: false
+  compute_dtype: float32
+  quant_type: nf4
+  use_double_quant: false
+  compress_pos_emb: 1
+  alpha_value: 1
